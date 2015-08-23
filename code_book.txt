@@ -1,0 +1,150 @@
+Column Name (dataset)			Variable Description
+ActivityName				Activity Name
+SubjectID				Subject ID
+tBodyAccmean..X				Time Mean Body Acceleration X-Axis
+tBodyAccmean..Y				Time Mean Body Acceleration Y-Axis
+tBodyAccmean..Z				Time Mean Body Acceleration Z-Axis
+tGravityAccmean..X			Time Mean Gravity Acceleration X-Axis
+tGravityAccmean..Y			Time Mean Gravity Acceleration Y-Axis
+tGravityAccmean..Z			Time Mean Gravity Acceleration Z-Axis
+tBodyAccJerkmean..X			Time Mean Body Linear Acceleration X-Axis
+tBodyAccJerkmean..Y			Time Mean Body Linear Acceleration Y-Axis
+tBodyAccJerkmean..Z			Time Mean Body Linear Acceleration Z-Axis
+tBodyGyromean..X			Time Mean Body Gyro Data X-Axis
+tBodyGyromean..Y			Time Mean Body Gyro Data Y-Axis
+tBodyGyromean..Z			Time Mean Body Gyro Data Z-Axis
+tBodyGyroJerkmean..X			Time Mean Body Angular Acceleration X-Axis
+tBodyGyroJerkmean..Y			Time Mean Body Angular Acceleration Y-Axis
+tBodyGyroJerkmean..Z			Time Mean Body Angular Acceleration Z-Axis
+tBodyAccMagmean..			Time Mean Body Acceleration Magnitude
+tGravityAccMagmean..			Time Mean Gravity Acceleration Magnitude
+tBodyAccJerkMagmean..			Time Mean Body Linear Acceleration Magnitude
+tBodyGyroMagmean..			Time Mean Body Gyro Data Magnitude
+tBodyGyroJerkMagmean..			Time Mean Body Gravity Angular Acceleration Magnitude
+fBodyAccmean..X				Fast Fourier Transform Mean Body Acceleration X-Axis
+fBodyAccmean..Y				Fast Fourier Transform Mean Body Acceleration Y-Axis
+fBodyAccmean..Z				Fast Fourier Transform Mean Body  Acceleration Z-Axis
+fBodyAccmeanFreq..X			Fast Fourier Transform Mean Weighted Body Acceleration Frequency X-Axis
+fBodyAccmeanFreq..Y			Fast Fourier Transform Mean Weighted Body Acceleration Frequency Y-Axis
+fBodyAccmeanFreq..Z			Fast Fourier Transform Mean Weighted Body Acceleration Frequency Z-Axis
+fBodyAccJerkmean..X			Fast Fourier Transform Mean Body Linear Acceleration Y-Axis
+fBodyAccJerkmean..Z			Fast Fourier Transform Mean Body Linear Acceleration Z-Axis
+fBodyAccJerkmeanFreq..X			Fast Fourier Transform Mean Weighted Body Linear Acceleration Frequency X-Axis
+fBodyAccJerkmeanFreq..Y			Fast Fourier Transform Mean Weighted Body Linear Acceleration Frequency Y-Axis
+fBodyAccJerkmeanFreq..Z			Fast Fourier Transform Mean Weighted Body Linear Acceleration Frequency Z-Axis
+fBodyGyromean..X			Fast Fourier Transform Mean Body Gyro Data X-Axis
+fBodyGyromean..Y			Fast Fourier Transform Mean Body Gyro Data Y-Axis
+fBodyGyromean..Z			Fast Fourier Transform Mean Body Gyro Data Z-Axis
+fBodyGyromeanFreq..X			Fast Fourier Transform Mean Weighted Gyro Data Frequency X-Axis
+fBodyGyromeanFreq..Y			Fast Fourier Transform Mean Weighted Gyro Data Frequency Y-Axis
+fBodyGyromeanFreq..Z			Fast Fourier Transform Mean Weighted Gyro Data Frequency Z-Axis
+fBodyAccMagmean..			Fast Fourier Transform Mean Body Angular Acceleration Magnitude
+fBodyAccMagmeanFreq..			Fast Fourier Transform Mean Body Angular Acceleration Frequency
+fBodyBodyAccJerkMagmean..		Not sure how Body-Body interact in this Fast Fourier Transformation
+fBodyBodyAccJerkMagmeanFreq..		Not sure how Body-Body interact in this Fast Fourier Transformation
+fBodyBodyGyroMagmean..			Not sure how Body-Body interact in this Fast Fourier Transformation
+fBodyBodyGyroMagmeanFreq..		Not sure how Body-Body interact in this Fast Fourier Transformation
+fBodyBodyGyroJerkMagmean..		Not sure how Body-Body interact in this Fast Fourier Transformation
+fBodyBodyGyroJerkMagmeanFreq..		Not sure how Body-Body interact in this Fast Fourier Transformation
+angle.tBodyAccMean.gravity.		Vector obtained by averaging signal of Time Body Acceleration Gravity
+angle.tBodyAccJerkMean..gravityMean.	Vector obtained by averaging signal of Time Body Linear Acceleration Gravity
+angle.tBodyGyroMean.gravityMean.	Vector obtained by averaging signal of Time Body Gyro Data Gravity
+angle.tBodyGyroJerkMean.gravityMean.	Vector obtained by averaging signal of Time Body Angular Acceleration Gravity
+angle.X.gravityMean.			Vector obtained by averaging signal of Time Body Acceleration Gravity
+angle.Y.gravityMean.			Vector obtained by averaging signal of Time Body Acceleration Gravity
+angle.Z.gravityMean.			Vector obtained by averaging signal of Time Body Acceleration Gravity
+tBodyAccstd..X				Time Body Acceleration standard deviation X-axis
+tBodyAccstd..Y				Time Body Acceleration standard deviation Y-axis
+tBodyAccstd..Z				Time Body Acceleration standard deviation Z-axis
+tGravityAccstd..X			Time Gravity Acceleration standard deviation X-axis
+tGravityAccstd..Y			Time Gravity Acceleration standard deviation Y-axis
+tGravityAccstd..Z			Time Gravity Acceleration standard deviation Z-axis
+tBodyAccJerkstd..X			Time Body Linear Acceleration Acelleration standard deviation X-axis
+tBodyAccJerkstd..Y			Time Body Linear Acceleration Acelleration standard deviation Y-axis
+tBodyAccJerkstd..Z			Time Body Linear Acceleration Acelleration standard deviation Z-axis
+tBodyGyrostd..X	Time	 		Gyro Angular Acelleration standard deviation X-axis
+tBodyGyrostd..Y	Time 			Gyro Angular Acelleration standard deviation Y-axis
+tBodyGyrostd..Z	Time 			Gyro Angular Acelleration standard deviation Z-axis
+tBodyGyroJerkstd..X			Time Gyro Angular Acceleration Acelleration standard deviation X-axis
+tBodyGyroJerkstd..Y			Time Gyro Angular Acceleration Acelleration standard deviation Y-axis
+tBodyGyroJerkstd..Z			Time Gyro Angular Acceleration Acelleration standard deviation Z-axis
+tBodyAccMagstd..			Time Body Acceleration Magnitude standard deviation
+tGravityAccMagstd..			Time Gravity Acceleration Magnitude standard deviation
+tBodyAccJerkMagstd..			Time Body Acceleration Acceleration Magnitude statndard deviation
+tBodyGyroMagstd..			Time Body Gyro Magnitude standard deviation
+tBodyGyroJerkMagstd..			Time Body Gyro Acceleration Acceleration standard deviation
+fBodyAccstd..X				Fourier Transform Body Acceleration X-axis
+fBodyAccstd..Y				Fourier Transform Body Acceleration Y-axis
+fBodyAccstd..Z				Fourier Transform Body Acceleration Z-axis
+fBodyAccJerkstd..X			Fourier Transform Body Acceleration Acceleration X-axis
+fBodyAccJerkstd..Y			Fourier Transform Body Acceleration Acceleration Y-axis
+fBodyAccJerkstd..Z			Fourier Transform Body Acceleration Acceleration Z-axis
+fBodyGyrostd..X	Some			Fourier Transform involving Body and Gyro accelertion std. dev. I don't understand X-axis
+fBodyGyrostd..Y	Some 			Fourier Transform involving Body and Gyro accelertion std. dev. I don't understand Y-axis
+fBodyGyrostd..Z	Some 			Fourier Transform involving Body and Gyro accelertion std. dev. I don't understand Z-axis
+fBodyAccMagstd..			Fourier Transform Body Acceleration Magnitude standard deviation
+fBodyBodyAccJerkMagstd..		Not sure how Body-Body interact in this Fast Fourier Transformation
+fBodyBodyGyroMagstd..			Not sure how Body-Body interact in this Fast Fourier Transformation
+fBodyBodyGyroJerkMagstd..		Not sure how Body-Body interact in this Fast Fourier Transformation
+
+
+From the original dataset readme file:
+Feature Selection 
+=================
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+The complete list of variables of each feature vector is available in 'features.txt'
