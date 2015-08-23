@@ -52,7 +52,7 @@ run_analysis<-function()
     activityLabelsTbl<-rename(activityLabelsTbl, ActivityID=V1, ActivityName=V2)
     
     
-    # lets add a sequence to each of the tables to give us something to join on.
+    # let's add a sequence to each of the tables to give us something to join on.
     # note that file lengths in train and test differ.
     fileRows<-count(trainYTbl)
     trainSubjectListTbl<-mutate(trainSubjectListTbl, id=seq(1, fileRows$n, by=1))
@@ -65,16 +65,22 @@ run_analysis<-function()
     
     # how about an identifier that will help us know which dataset it came from?
     trainYTbl<-mutate(trainYTbl, dataSet="Train")
-    testYTbl<-mutate(trainYTbl, dataSet="Test")
+    testYTbl<-mutate(testYTbl, dataSet="Test")
+    View(trainYTbl)
+    View(testYTbl)
     
     # what activities are these ids, anyway?
     # this completes item 3 on the checklist.
     trainYTbl<-left_join(trainYTbl, activityLabelsTbl)
     testYTbl<-left_join(testYTbl, activityLabelsTbl)
+    View(trainYTbl)
+    View(testYTbl)
     
     # join all of the training tables.
     trainDataIntermediate<-inner_join(trainSubjectListTbl, trainYTbl, by=c("id"="id"))
+    View(trainDataIntermediate)
     trainDataComplete<-inner_join(trainDataIntermediate, trainXTbl, by=c("id"="id"))
+    View(trainDataComplete)
     testDataIntermediate<-inner_join(testSubjectListTbl, testYTbl, by=c("id"="id"))
     testDataComplete<-inner_join(testDataIntermediate, testXTbl, by=c("id"="id"))
     
