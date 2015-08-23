@@ -93,29 +93,6 @@ run_analysis<-function()
     tidyData<-group_by(analysisData, ActivityName, SubjectID)
     tidyData<-summarise_each(tidyData, funs(mean), -dataSet)
     write.table(tidyData, file="tidy_data.txt", row.names = FALSE, sep="\t")
-    
-    # View(tidyData)
-    
-    # rename the columns to be more user friendly.
-#     renameMap <- c("ActivityName" = "ActivityName",
-#                    "SubjectID" = "SubjectID",
-#                    "tBodyAccmean..X" = "Time Body Mean Acceleration X-Axis",
-#                    "tBodyAccmean..Y" = "Time Body Mean Acceleration Y-Axis",
-#                    "tBodyAccmean..Z" = "Time Body Mean Acceleration Z-Axis",
-#                    "tGravityAccmean..X" = "Time Mean Gravity Acceleration X-Axis",
-#                    "tGravityAccmean..Y" = "Time Mean Gravity Acceleration Y-Axis",
-#                    "tGravityAccmean..Z" = "Time Mean Gravity Acceleration Z-Axis",
-#                    "tBodyAccJerkmean..X" = "Time Mean Body Linear Acceleration X-Axis",
-#                    "tBodyAccJerkmean..Y" = "Time Mean Body Linear Acceleration Y-Axis",
-#                    "tBodyAccJerkmean..Z" = "Time Mean Body Linear Acceleration Z-Axis",
-#                    "tBodyGyromean..X" = "Time Mean Body Angular Velocity X-Axis",
-#                    "tBodyGyromean..Y" = "Time Mean Body Angular Velocity Y-Axis",
-#                    "tBodyGyromean..Z" = "Time Mean Body Angular Velocity Z-Axis",
-#                    
 
-                   
-                   
-    # names(tidyData) <- renameMap[names(tidyData)]
-    
     View(tidyData)
 }
